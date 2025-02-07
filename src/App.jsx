@@ -21,7 +21,7 @@ function App() {
 
   function updateTodos(index){
     const todoToUpdate = todos[index];
-    handleDeleteTodos(todoToUpdate);
+    handleDeleteTodos(index);
     setNewTodo(todoToUpdate);
   }
   return (
